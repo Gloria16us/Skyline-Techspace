@@ -1,0 +1,75 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* Style for form labels */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style for form inputs and textarea */
+.form-group input[type="text"],
+.form-group input.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* Style for form labels */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}[type="email"],
+.form-group input[type="tel"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for radio buttons and checkboxes */
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style for the submit button */
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hover effect for the submit button */
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for the form container heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Center-align the form elements */
+.form-group {
+    text-align: left;
+}
